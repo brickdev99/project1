@@ -1,2 +1,2 @@
-Shopping website in react
-JUST FOR FUN
+Shopping website in react 
+Just for Study
