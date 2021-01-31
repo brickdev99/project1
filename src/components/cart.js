@@ -63,7 +63,7 @@ class Cart extends Component {
                 "col-sm-3" + " " + "cart-price" + i + " " + "cart-price"
               }
             >
-              ₹{data.price}
+              VND {data.price}
             </div>
           </div>
         );
@@ -100,7 +100,7 @@ class Cart extends Component {
           <div className="checkout">
             <div className="row">
               <div className="col-sm-8">Subtotal</div>
-              <div className="col-sm-3 cart-pricee">₹{amount}</div>
+              <div className="col-sm-3 cart-pricee">VND {amount}</div>
               <button className="btn checkout-btn" onClick={this.checkout}>
                 Checkout
               </button>
